@@ -1,0 +1,49 @@
+.login {
+    height: 100vh;
+    margin: 100px 25% 15% 25%;
+}
+
+.login-error {
+    color: red;
+    margin-left: 35%;
+    margin-bottom: 2%;
+    margin-top: -3%;
+}
+
+.login-error-hide {
+    display: none;
+}
+
+.login-button {
+    text-align: center;
+}
+
+.login-container {
+    padding: 10% 15% 15% 5%;
+    text-align: center;
+    margin: 5%;
+    background-color: honeydew;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* Media Query for viewport width less than or equal to 600px */
+@media (max-width: 575px) {
+    .login {
+        margin: 100px 15% 30% 15%;
+    }
+
+    .login-error{
+        margin-left: 0%;
+    }
+
+    .login-button {
+        text-align: left;
+    }
+}
+
+/* Media Query for viewport width between 601px and 900px */
+@media (min-width: 575px) and (max-width: 900px) {
+    .login {
+        margin: 100px 20% 25% 20%;
+    }
+}

@@ -1,0 +1,28 @@
+.dashboard {
+    height: 100vh;
+}
+
+.dashboard-container {
+    margin: 50px 10% 10% 10%;
+}
+
+.dashboard-profile{
+    text-align: -webkit-center;
+    border: none;
+}
+
+.dashboard-profile-image {
+    width: 200px !important;
+    height: 200px;
+    border-radius: 50% !important;
+}
+
+.dashboard-profile-name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -1%;
+}
+
+.dashboard-portfolio{
+    border: 2px solid black;
+}

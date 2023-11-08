@@ -1,0 +1,12 @@
+export const SET_USERS = 'SET_USERS';
+export const GET_USER = 'GET_USER';
+export const ADD_USER = 'ADD_USER';
+export const DELETE_USER = 'DELETE_USER';
+export const UPDATE_USER = 'UPDATE_USER';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_ERROR = 'LOGIN_ERROR';
+export const SIGNUP_ERROR = 'SIGNUP_ERROR';
+export const SIGNUP_SUCCESS = 'SIGNUP_SUCCESS';
+export const LOGOUT = 'LOGOUT';
+export const API_ERROR = 'API_ERROR';
+export const RESET = 'RESET';

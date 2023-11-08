@@ -1,0 +1,18 @@
+.userlist {
+    background-color: gray !important;
+    overflow: auto;
+}
+
+.edit-cancel-button{
+    margin-left: 10%;
+}
+
+.edit-button-icon{
+    border: none !important;
+}
+
+@media (max-width: 575px) {
+    .userlist {
+        background-color: gray !important;
+    }
+}

@@ -1,0 +1,67 @@
+.createuser {
+    height: 100vh;
+    margin: 10px 20% 15% 20%;
+}
+
+.createuser-container {
+    text-align: -webkit-center;
+    padding: 5% 0% 5% 5%;
+    /* text-align: center; */
+    margin: 1%;
+    background-color: honeydew;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.createuser-button {
+    text-align: justify !important;
+}
+
+.createuser-age-label, .createuser-image-label {
+    text-align: left;
+}
+
+.ant-form-item-explain-error {
+    text-align: left;
+}
+
+.createuser-role {
+    width: 40% !important;
+    float: left !important;
+}
+
+.createuser-error {
+    color: red;
+    margin-left: -15%;
+    margin-bottom: 2%;
+    margin-top: -3%;
+}
+
+.createuser-error-hide {
+    display: none;
+}
+
+.createuser-redirect {
+    margin-left: -15%;
+}
+
+.createuser-button-submit{
+    margin-right: 10%;
+    margin-left: -10%;
+}
+
+.ant-select-selection-item {
+    text-align: left !important;
+}
+
+@media (min-width: 575px) and (max-width: 900px) {
+    .createuser {
+        height: 100vh;
+        margin: 10px 2% 15% 2%;
+    }    
+}
+
+@media (max-width: 575px) {
+    .createuser {
+        margin: 10px 2% 2% 2%;
+    }
+}
